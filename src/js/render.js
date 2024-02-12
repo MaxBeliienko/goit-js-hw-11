@@ -37,5 +37,4 @@ export function galleryMarkup(obj) {
     refs.gallery.innerHTML = markup;
     let gallery = new SimpleLightbox(".gallery a");
     gallery.refresh();
-    
 }
